@@ -5,33 +5,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Web3 Development</title>
 
-  <!-- CSS goes here -->
+  <!-- Gothic Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet">
+
   <style>
+    /* Global styles */
     body {
       margin: 0;
-      font-family: 'Cinzel', serif;
-      background: #000;
+      font-family: 'Cinzel Decorative', cursive;
+      background-color: #000;
       color: #f1f1f1;
       line-height: 1.6;
     }
 
+    /* Header */
     header {
       background: #111;
-      color: #f1f1f1;
-      padding: 1rem;
-      text-align: center;
       border-bottom: 3px solid #8b0000;
+      text-align: center;
+      padding: 1rem;
     }
 
-    header .logo {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-
-    header .bat-logo {
-      width: 60px;
+    header .logo img {
+      width: 80px;
+      margin-bottom: 0.5rem;
       filter: invert(12%) sepia(94%) saturate(7429%) hue-rotate(350deg) brightness(91%) contrast(110%);
+    }
+
+    header h1 {
+      margin: 0;
+      color: #ff0000;
+      font-size: 2.5rem;
     }
 
     nav {
@@ -40,28 +44,29 @@
 
     nav a {
       color: #ff0000;
-      margin: 0 15px;
       text-decoration: none;
+      margin: 0 15px;
       font-weight: bold;
     }
 
     nav a:hover {
-      text-shadow: 0 0 5px #ff0000;
+      text-shadow: 0 0 8px #ff0000;
     }
 
+    /* Sections */
     section {
       padding: 3rem 1rem;
       max-width: 900px;
       margin: auto;
     }
 
-    h2 {
+    section h2 {
       color: #ff0000;
       border-bottom: 2px solid #8b0000;
-      padding-bottom: 0.5rem;
       margin-bottom: 1rem;
     }
 
+    /* Projects */
     .projects {
       display: flex;
       flex-wrap: wrap;
@@ -73,33 +78,44 @@
       background: #111;
       border: 2px solid #8b0000;
       padding: 1rem;
-      width: 250px;
-      border-radius: 8px;
+      width: 260px;
+      border-radius: 6px;
       text-align: center;
-      transition: transform 0.2s;
+      transition: transform 0.2s, box-shadow 0.2s;
     }
 
     .project-card:hover {
       transform: scale(1.05);
-      box-shadow: 0 0 10px #ff0000;
+      box-shadow: 0 0 15px #ff0000;
     }
 
+    /* Contact Links */
+    a {
+      color: #ff0000;
+    }
+
+    a:hover {
+      text-shadow: 0 0 5px #ff0000;
+    }
+
+    /* Footer */
     footer {
       background: #111;
-      color: #888;
+      border-top: 3px solid #8b0000;
       text-align: center;
       padding: 1rem;
-      margin-top: 2rem;
-      border-top: 3px solid #8b0000;
+      color: #777;
+      margin-top: 3rem;
     }
   </style>
 </head>
 <body>
+  <!-- Header -->
   <header>
     <div class="logo">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Bat_icon.svg" alt="Gothic Bat" class="bat-logo">
-      <h1>BenX</h1>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Bat_icon.svg" alt="Gothic Bat">
     </div>
+    <h1>BenX</h1>
     <nav>
       <a href="#about">About</a>
       <a href="#projects">Projects</a>
@@ -107,11 +123,13 @@
     </nav>
   </header>
 
+  <!-- About Section -->
   <section id="about">
     <h2>About</h2>
-    <p>All things informative for Web3 development. Welcome to the shadows of innovation 🦇.</p>
+    <p>All things informative for Web3 development. Enter the shadows of innovation 🦇.</p>
   </section>
 
+  <!-- Projects Section -->
   <section id="projects">
     <h2>Projects & Portfolio</h2>
     <div class="projects">
@@ -126,20 +144,22 @@
     </div>
   </section>
 
+  <!-- Contact Section -->
   <section id="contact">
     <h2>Contact</h2>
     <p>Email: <a href="mailto:Avpbwoa2001@gmail.com">Avpbwoa2001@gmail.com</a></p>
-    <p>X: <a href="https://x.com/0xcosmicx" target="_blank">@0xcosmicx</a></p>
+    <p>X (Twitter): <a href="https://x.com/0xcosmicx" target="_blank">@0xcosmicx</a></p>
     <p>GitHub: <a href="https://github.com/x0benX" target="_blank">x0benX</a></p>
   </section>
 
+  <!-- Footer -->
   <footer>
-    <p>© 2025 BenX | Crafted in the Gothic Web3 Realm</p>
+    <p>© 2025 BenX | Forged in the Gothic Web3 Realm</p>
   </footer>
 
-  <!-- JavaScript goes here -->
+  <!-- JavaScript -->
   <script>
-    console.log("Welcome to the Gothic Web3 realm of BenX 🦇");
+    console.log("🦇 Welcome to the Gothic Web3 realm of BenX 🔥");
   </script>
 </body>
 </html>
