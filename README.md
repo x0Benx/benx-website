@@ -108,6 +108,23 @@
       font-size: 1.5rem;
     }
 
+    .project-card a {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.6rem 1.2rem;
+      border-radius: 8px;
+      background: rgba(135, 206, 235, 0.2);
+      color: #87CEEB;
+      font-weight: bold;
+      text-decoration: none;
+      transition: background 0.3s ease, color 0.3s ease;
+    }
+
+    .project-card a:hover {
+      background: #87CEEB;
+      color: #000;
+    }
+
     /* Updates section */
     #updates {
       margin-bottom: 4rem;
@@ -150,7 +167,7 @@
     <h1>BenX</h1>
     <nav>
       <a href="#about">About</a>
-      <a href="#projects">Projects</a>
+      <a href="#projects">Top Projects</a>
       <a href="#updates">Updates</a>
       <a href="#contact">Contact</a>
     </nav>
@@ -164,15 +181,57 @@
     </section>
 
     <section id="projects">
-      <h2>Projects & Portfolio</h2>
+      <h2>Top Projects</h2>
       <div class="projects">
         <div class="project-card">
-          <h3>Project One</h3>
-          <p>A showcase of Web3 magic — coming soon.</p>
+          <h3>Antix</h3>
+          <p>Decentralized innovation from Antix.</p>
+          <a href="https://antix.in" target="_blank">View Project</a>
         </div>
         <div class="project-card">
-          <h3>Project Two</h3>
-          <p>Another masterpiece in progress...</p>
+          <h3>Pulse</h3>
+          <p>On Alphabot, powered by Boost.</p>
+          <a href="#" target="_blank">View Project</a>
+        </div>
+        <div class="project-card">
+          <h3>Play AI</h3>
+          <p>AI-powered tools on Kaito Yaps.</p>
+          <a href="#" target="_blank">View Project</a>
+        </div>
+        <div class="project-card">
+          <h3>Veera</h3>
+          <p>The Veera browser experience.</p>
+          <a href="https://veerabrowser.com" target="_blank">View Project</a>
+        </div>
+        <div class="project-card">
+          <h3>XO Market</h3>
+          <p>The conviction market platform.</p>
+          <a href="#" target="_blank">View Project</a>
+        </div>
+        <div class="project-card">
+          <h3>Airaa</h3>
+          <p>Innovating at Airaa.</p>
+          <a href="https://airaa.com" target="_blank">View Project</a>
+        </div>
+        <div class="project-card">
+          <h3>Boost S2</h3>
+          <p>Season Two campaign on Pulse.</p>
+          <a href="#" target="_blank">View Project</a>
+        </div>
+        <div class="project-card">
+          <h3>Rayls</h3>
+          <p>Decentralized systems by Rayls Labs.</p>
+          <a href="https://raylslabs.com" target="_blank">View Project</a>
+        </div>
+        <div class="project-card">
+          <h3>VeloraDEX</h3>
+          <p>A next-gen decentralized exchange.</p>
+          <a href="#" target="_blank">View Project</a>
+        </div>
+        <div class="project-card">
+          <h3>Lumiterra</h3>
+          <p>Immersive Web3 gaming experiences.</p>
+          <a href="#" target="_blank">View Project</a>
         </div>
       </div>
     </section>
