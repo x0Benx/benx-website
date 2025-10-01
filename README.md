@@ -92,13 +92,24 @@
       border-radius: 15px;
       padding: 2rem;
       flex: 1 1 300px;
-      min-height: 180px;
+      min-height: 280px;
       transition: transform 0.3s ease, box-shadow 0.3s ease;
+      text-align: center;
     }
 
     .project-card:hover {
       transform: translateY(-8px);
       box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+    }
+
+    .project-card img.project-img {
+      width: 100%;
+      height: 150px;
+      object-fit: contain;
+      border-radius: 10px;
+      background: rgba(255, 255, 255, 0.1);
+      margin-bottom: 1rem;
+      padding: 10px;
     }
 
     .project-card h3 {
@@ -183,53 +194,63 @@
       <h2>Top Projects</h2>
       <div class="projects">
         <div class="project-card">
+          <img src="https://files.fm/f/ggunmg3uqr" alt="Antix" class="project-img">
           <h3>Antix</h3>
           <p>Decentralized innovation from Antix.</p>
           <a href="https://antix.in" target="_blank">View Project</a>
         </div>
         <div class="project-card">
-          <h3>Pulse</h3>
-          <p>On Alphabot, powered by Boost.</p>
-          <a href="#" target="_blank">View Project</a>
-        </div>
-        <div class="project-card">
-          <h3>Play AI</h3>
-          <p>AI-powered tools on Kaito Yaps.</p>
-          <a href="#" target="_blank">View Project</a>
-        </div>
-        <div class="project-card">
-          <h3>Veera</h3>
-          <p>The Veera browser experience.</p>
-          <a href="https://veerabrowser.com" target="_blank">View Project</a>
-        </div>
-        <div class="project-card">
-          <h3>XO Market</h3>
-          <p>The conviction market platform.</p>
-          <a href="#" target="_blank">View Project</a>
-        </div>
-        <div class="project-card">
+          <img src="https://files.fm/f/p9puusv3ts" alt="Airaa" class="project-img">
           <h3>Airaa</h3>
           <p>Innovating at Airaa.</p>
-          <a href="https://airaa.com" target="_blank">View Project</a>
+          <a href="https://airaa.xyz" target="_blank">View Project</a>
         </div>
         <div class="project-card">
+          <img src="https://files.fm/f/3855j6kju9" alt="Boost" class="project-img">
           <h3>Boost S2</h3>
           <p>Season Two campaign on Pulse.</p>
-          <a href="#" target="_blank">View Project</a>
+          <a href="https://www.alphabot.app/boost" target="_blank">View Project</a>
         </div>
         <div class="project-card">
+          <img src="https://files.fm/f/4yd5th2ev8" alt="Lumiterra" class="project-img">
+          <h3>Lumiterra</h3>
+          <p>Immersive Web3 gaming experiences.</p>
+          <a href="https://lumiterra.net" target="_blank">View Project</a>
+        </div>
+        <div class="project-card">
+          <img src="https://files.fm/f/mksw6qgnxm" alt="Play AI" class="project-img">
+          <h3>Play AI</h3>
+          <p>AI-powered tools on Kaito Yaps.</p>
+          <a href="https://yaps.kaito.ai/playai" target="_blank">View Project</a>
+        </div>
+        <div class="project-card">
+          <img src="https://files.fm/f/ecwhxw6yjs" alt="Rayls" class="project-img">
           <h3>Rayls</h3>
           <p>Decentralized systems by Rayls Labs.</p>
           <a href="https://raylslabs.com" target="_blank">View Project</a>
         </div>
         <div class="project-card">
-          <h3>VeloraDEX</h3>
-          <p>A next-gen decentralized exchange.</p>
-          <a href="#" target="_blank">View Project</a>
+          <img src="https://files.fm/f/kpeny2ywts" alt="Veera" class="project-img">
+          <h3>Veera</h3>
+          <p>The Veera browser experience.</p>
+          <a href="https://veerabrowser.com" target="_blank">View Project</a>
         </div>
         <div class="project-card">
-          <h3>Lumiterra</h3>
-          <p>Immersive Web3 gaming experiences.</p>
+          <img src="https://files.fm/f/m4ftayn8rx" alt="VeloraDEX" class="project-img">
+          <h3>VeloraDEX</h3>
+          <p>A next-gen decentralized exchange.</p>
+          <a href="https://cookie.fun" target="_blank">View Project</a>
+        </div>
+        <div class="project-card">
+          <img src="https://files.fm/f/tsfmqxhhwx" alt="XO Market" class="project-img">
+          <h3>XO Market</h3>
+          <p>The conviction market platform.</p>
+          <a href="https://xo.market" target="_blank">View Project</a>
+        </div>
+        <div class="project-card">
+          <img src="https://files.fm/f/5r6es9r7fh" alt="TenProtocol" class="project-img">
+          <h3>TenProtocol</h3>
+          <p>Protocol innovation in Web3.</p>
           <a href="#" target="_blank">View Project</a>
         </div>
       </div>
